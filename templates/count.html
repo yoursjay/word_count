@@ -1,0 +1,10 @@
+<h1>统计结果</h1>
+<h2>总字数为：{{ count }}</h2>
+<span>输入的内容为：</span>
+<br>
+<span>{{ content }}</span>
+<br>
+{% for word,times in sort_dict %}
+{{ word }} - {{ times }}次
+<br>
+{% endfor %}
