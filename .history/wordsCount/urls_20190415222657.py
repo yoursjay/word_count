@@ -20,6 +20,5 @@ from . import words
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',words.home),
-    path('about/',words.about),
     path('count/',words.count),
 ]
